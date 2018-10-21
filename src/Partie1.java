@@ -40,9 +40,7 @@ public interface Partie1{
      */
     public void play(String move, String choose, String player);
 
-    /** modifie les pièces restantes en choisissant la pièce choose
-     * @param move le coup à jouer sous la forme "B2"
-     * @param player le joueur qui joue (représenté par "noir" ou "blanc")
+    /** vrai lorsque le plateau correspond à une fin de partie
      */
 
     public boolean finDePartie();
